@@ -14,6 +14,8 @@ Contents of this folder (in addition to this ReadMe file and the license file):
 
 **atcmPythonJupyter.ipynb** - annotated Jupyter notebook for Python (ipynb) for producing plots like that published in the article
 
+**atcmPythonJupyter.html** - exported html file of the Python Jupyter script
+
 **Phantom** - a folder containing DICOM files for a CT scan of a [CCT228 ATCM phantom](https://www.phantomlab.com/atcm-phantom) (Phantom Laboratories, Greenwich, NY, USA)
 
 ## Acknowledgements ##
