@@ -18,7 +18,7 @@ Contents of this folder (in addition to this ReadMe file and the license file):
 
 ## Important note ##
 
-This folder contains fictitious staff data from a fictitious vendor. Remember that if you process any data that contains genuine personal information, you should follow your local rules implementing the EU’s General Data Protection Regulation (GDPR), or the equivalent legislation where that does not apply. Further, the quality assurance necessary for any software you write will depend on the purpose for which it is used. This applied to both the code in this repository and any you write yourself. 
+This folder contains fictitious staff data from a fictitious vendor. Remember that if you process any data that contains genuine personal information, you should follow your local rules implementing the EU’s General Data Protection Regulation (GDPR), or the equivalent legislation where that does not apply. Further, the quality assurance necessary for any software you write will depend on the purpose for which it is used. This applies to both the code in this repository and to any that you write yourself. 
 
 ## Acknowledgements ##
 
