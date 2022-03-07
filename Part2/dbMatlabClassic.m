@@ -22,7 +22,16 @@
 % installed, along with the Statistics and Machine Learning Toolbox 
 % (the latter only for creating the boxplots).
 
-% We will clear the MATLAB workspace before beginning.
+% This example uses fictitious staff data from a fictitious vendor. 
+% However, remember that if you process any data that contains genuine 
+% personal information, you should follow your local rules implementing the
+% EU’s General Data Protection Regulation (GDPR), or the equivalent 
+% legislation where that does not apply. Further, the quality assurance 
+% necessary for any software you write will depend on the purpose for which
+% it is used. 
+
+% Now let's get started! We will clear the MATLAB workspace before 
+% beginning.
 
 clear
 
