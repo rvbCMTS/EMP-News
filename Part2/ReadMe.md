@@ -6,6 +6,10 @@ The demo scripts, data and documents in this folder are provided to accompany th
 
 Contents of this folder (in addition to this ReadMe file and the license file):
 
+**dbPythonNotebook.ipynb** - annotated Jupyter script (ipynb-file) for producing a plot like that published in the article
+
+**dbPythonNotebook.html** - exported html file of the Jupyter script
+
 **dbMatlabLive.m** - annotated live MATLAB script (mlx-file) for producing a plot like that published in the article
 
 **dbMatlabLive.html** - exported html file of the MATLAB live script
