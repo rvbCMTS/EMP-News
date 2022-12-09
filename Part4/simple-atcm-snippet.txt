@@ -1,0 +1,19 @@
+// In ImageJ:
+// 1. Select "Analyze-Set Measurements" and ensure that at least 
+// ... "Standard deviation" is selected
+// 2. Select "Process-Batch-Macro"
+// 3. As "Input", select the path to the ATCM DICOM data 
+// ... (i.e., EMP-News/Part1/Phantom)
+// 4. Cut-and-paste the six lines of code below into the Batch Process window
+// 5. Click "Process" 
+// 6. In the Results window, select "Result-Sort-Z" to sort results by z-axis
+
+makeOval(256-25, 256-25, 50, 50); // Place ROI in middle (50 pixel diameter)
+run("Measure");                   // Calculate "measurements" on a slice
+Z=1.0*getInfo("0020,1041")        // get the Z-position [mm] by DICOM tag
+mA=1.0*getInfo("0018,1151")       // get the tube current [mA] by DICOM tag
+setResult("Z",nResults-1,Z)       // add the Z value to Results window
+setResult("mA",nResults-1,mA)     // add the mA value to Results window
+
+// Note that: Z and mA have 1.0* in definition to ensure type conversion
+// ... to floating point numbers
