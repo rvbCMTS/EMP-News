@@ -29,5 +29,9 @@ Published in *EMP News, Winter 2022*.
 Published in *EMP News, Summer 2023*.
  
  The folder **Part5** contains scripts demonstrating how to use the SpekPy spectrum modelling toolkit in Python, for modelling x-ray systems. The scripts reproduce the results and plots published in the EMP News article.
- 
+
  See the folder for details of licensing of the code.
+
+ The user needs to install a Python 3 distribution and the SpekPy toolkit to run the scripts. Details of how to get and install SpekPy can be found here: https://bitbucket.org/spekpy/spekpy_release
+ 
+ 
